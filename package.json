@@ -5,7 +5,7 @@
 	"main": "index.ts",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/tomaswrobel/tombot"
+		"url": "https://github.com/juvofy/bot"
 	},
 	"author": {
 		"email": "mail@tomaswrobel.dev",
