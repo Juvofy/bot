@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"outDir": "dist",
+		"module": "nodenext",
+		"target": "ES2022",
+		"erasableSyntaxOnly": true,
+		"moduleResolution": "nodenext",
+		"allowImportingTsExtensions": true,
+		"noEmit": true,
+		"verbatimModuleSyntax": true,
+		"resolveJsonModule": true,
+		"useUnknownInCatchVariables": true,
+		"allowUnreachableCode": false,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"importHelpers": true,
+		"typeRoots": ["node_modules/@types"],
+		"types": ["node"],
+		"strictPropertyInitialization": false
+	},
+	"include": ["src", "commands", "index.ts"]
+}

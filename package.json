@@ -1,0 +1,36 @@
+{
+	"name": "@juvofy/bot",
+	"version": "4.0.0",
+	"description": "Juvofy bot is a multi-purpose Discord bot.",
+	"main": "index.ts",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tomaswrobel/tombot"
+	},
+	"author": {
+		"email": "mail@tomaswrobel.dev",
+		"name": "Tomáš Wróbel",
+		"url": "https://tomaswrobel.dev"
+	},
+	"scripts": {
+		"start": "node --experimental-strip-types index.ts"
+	},
+	"type": "module",
+	"license": "MIT",
+	"private": true,
+	"dependencies": {
+		"@babel/core": "7.28.0",
+		"@babel/plugin-syntax-top-level-await": "7.14.5",
+		"@babel/preset-typescript": "7.27.1",
+		"discord.js": "^14.21.0",
+		"dotenv": "^17.2.1",
+		"unsplash-js": "^7.0.19"
+	},
+	"devDependencies": {
+		"@types/babel__core": "^7.20.5",
+		"@types/mysql": "^2.15.27",
+		"@types/node": "^24.2.1",
+		"typescript": "^5.9.2"
+	},
+	"packageManager": "pnpm@10.14.0"
+}
